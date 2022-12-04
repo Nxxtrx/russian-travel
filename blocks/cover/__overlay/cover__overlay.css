@@ -1,0 +1,23 @@
+.cover__overlay {
+  width: 100%;
+  min-height: 740px;
+  opacity: 1;
+  transition: background-color 0.4s linear;
+  background-color: rgb(42, 44, 47, 0.3);
+}
+
+.cover__overlay:hover {
+  background-color: rgb(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .cover__overlay {
+    min-height: 100%;
+  }
+}
