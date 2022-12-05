@@ -1,16 +1,16 @@
-.place__subtitle {
+.place__description {
   grid-column: 2;
   grid-row: 2;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__subtitle {
+  .place__description{
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .place__subtitle {
+  .place__description {
     margin: 0 16px;
   }
 }

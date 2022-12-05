@@ -17,7 +17,7 @@
   .place {
     max-width: 100%;
     gap: 48px 28px;
-    margin-bottom: 90px;
+    margin-bottom: 88px;
   }
 }
 
@@ -27,5 +27,9 @@
     flex-direction: column;
     margin-bottom: 50px;
     gap: 32px;
+  }
+
+  .place:last-child {
+    margin-bottom: 0;
   }
 }

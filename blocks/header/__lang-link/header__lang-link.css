@@ -5,6 +5,13 @@
   font-weight: 400;
   line-height: calc(28/24);
   margin-bottom: 6px;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 440px) {

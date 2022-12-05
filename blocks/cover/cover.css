@@ -1,7 +1,6 @@
 .cover {
   margin: 92px auto 92px;
   max-width: 1182px;
-  max-height: 100%;
   background-image: url("../../images/cover-railway_station.jpg");
   display: block;
   text-decoration: none;
@@ -9,31 +8,14 @@
   background-position: center;
 }
 
-@media screen and (max-width: 1024px) {
- .cover {
-    max-height: 640px;
- }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .cover {
-    max-height: 480px;
-    max-width: 100%;
-    margin-bottom: 88px;
+    margin: 90px auto 88px;
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 440px){
   .cover {
     margin: 66px auto 64px;
-    max-height: 330px;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    max-height: 200px;
-    max-width: 100%;
   }
 }
